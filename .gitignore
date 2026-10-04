@@ -1,0 +1,40 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Grafana data
+grafana-data/
+grafana.db
+
+# Prometheus data
+prometheus-data/
+prometheus-data/**
+
+# Docker
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test reports
+reports/
+allure-results/
+allure-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
